@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Advisor – Welcome</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aptos+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Aptos Display', Arial, sans-serif;
+            background: #f8fbff;
+            color: #222;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            max-width: 480px;
+            margin: auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0, 80, 200, 0.07);
+            text-align: center;
+            margin-top: 8vh;
+        }
+        h1 {
+            color: #1565c0;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        p {
+            color: #444;
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+        }
+        .start-btn {
+            background: #1976d2;
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            padding: 0.9rem 2.2rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .start-btn:hover, .start-btn:focus {
+            background: #0d47a1;
+            outline: none;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin-top: 2vh;
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tax Advisor</h1>
+        <p>Your smart, AI-powered platform to analyze tax liabilities and discover personalized tax-saving strategies. Start your journey to smarter finances!</p>
+        <form action="/upload" method="get" style="margin:0;">
+            <button class="start-btn" type="submit">Start</button>
+        </form>
+        <p style="margin-top:2rem;font-size:0.95rem;color:#888;">Phase 1: Landing page only. More features coming soon.</p>
+    </div>
+</body>
+</html> 
